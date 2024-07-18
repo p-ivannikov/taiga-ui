@@ -1,13 +1,13 @@
 @import '@taiga-ui/core/styles/taiga-ui-local';
 
 [tuiIcons] {
-    &:before,
-    &:after {
+    &::before,
+    &::after {
         font-size: 1.5rem;
     }
 
-    &._icon-start:before,
-    &._icon-end:after {
+    &._icon-start::before,
+    &._icon-end::after {
         content: '';
         width: 1em;
         height: 1em;
@@ -16,7 +16,7 @@
         mask: var(--t-mask-start) no-repeat center/contain;
     }
 
-    &._icon-end:after {
+    &._icon-end::after {
         mask: var(--t-mask-end) no-repeat center/contain;
     }
 }

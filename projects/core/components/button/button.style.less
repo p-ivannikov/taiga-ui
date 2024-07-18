@@ -31,7 +31,7 @@
 
         tui-svg,
         tui-icon,
-        &:before {
+        &::before {
             font-size: 1rem;
         }
     }
@@ -46,7 +46,7 @@
 
         tui-svg,
         tui-icon,
-        &:not([tuiIconButton][data-appearance='icon']):not([tuiIconButton][data-appearance='link']):before {
+        &:not([tuiIconButton][data-appearance='icon']):not([tuiIconButton][data-appearance='link'])::before {
             font-size: 1rem;
         }
     }
@@ -60,7 +60,7 @@
         font: var(--tui-font-text-m);
         font-weight: bold;
 
-        &:after {
+        &::after {
             margin-inline-end: -0.125rem;
         }
     }
@@ -75,7 +75,7 @@
         font: var(--tui-font-text-m);
         font-weight: bold;
 
-        &:after {
+        &::after {
             margin-inline-start: 0.25rem;
             margin-inline-end: -0.25rem;
         }
@@ -87,8 +87,8 @@
         -webkit-text-fill-color: transparent;
 
         > *,
-        &:before,
-        &:after {
+        &::before,
+        &::after {
             opacity: 0;
         }
 
@@ -97,7 +97,7 @@
         }
     }
 
-    &[tuiIcons]:after {
+    &[tuiIcons]::after {
         font-size: 1rem;
     }
 }
@@ -109,10 +109,10 @@
     padding: 0;
 }
 
-[tuiIconButton][data-size='l']:after {
+[tuiIconButton][data-size='l']::after {
     margin: 0;
 }
 
-[tuiIconButton]._icon-start:after {
+[tuiIconButton]._icon-start::after {
     display: none;
 }

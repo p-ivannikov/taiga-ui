@@ -11,7 +11,7 @@
     box-shadow: 0 0 0.1875rem rgba(0, 0, 0, 0.3);
     transform-style: preserve-3d; // z-index doesn't work on pseudo-element
 
-    &:before {
+    &::before {
         content: '';
         position: absolute;
         top: 0;
@@ -23,7 +23,7 @@
         background: currentColor;
     }
 
-    &:after {
+    &::after {
         .fullsize(absolute, inset);
 
         content: '';
