@@ -29,10 +29,10 @@ const GAP = 16;
     selector: 'tui-dropdown-mobile',
     imports: [
         IntersectionObserverModule,
-        TuiSwipe,
         NgIf,
         PolymorpheusOutlet,
         PolymorpheusTemplate,
+        TuiSwipe,
     ],
     templateUrl: './dropdown-mobile.template.html',
     styleUrls: ['./dropdown-mobile.style.less'],

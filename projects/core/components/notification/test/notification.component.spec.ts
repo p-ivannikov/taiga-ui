@@ -16,7 +16,7 @@ describe('Notification', () => {
     describe('Without options', () => {
         @Component({
             standalone: true,
-            imports: [TuiNotification, NgIf],
+            imports: [NgIf, TuiNotification],
             template: `
                 <tui-notification
                     *ngIf="hasCloseButton; else noClose"

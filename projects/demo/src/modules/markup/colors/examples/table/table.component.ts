@@ -9,7 +9,7 @@ import {tuiInjectElement} from '@taiga-ui/cdk';
 @Component({
     standalone: true,
     selector: 'table[colors]',
-    imports: [NgIf, AsyncPipe, NgForOf, TuiDocCopy, ClipboardModule],
+    imports: [AsyncPipe, ClipboardModule, NgForOf, NgIf, TuiDocCopy],
     templateUrl: './table.template.html',
     styleUrls: ['./table.style.less'],
     changeDetection,

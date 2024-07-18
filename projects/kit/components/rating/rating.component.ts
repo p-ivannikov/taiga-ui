@@ -24,10 +24,10 @@ import {TUI_RATING_OPTIONS} from './rating.options';
     imports: [
         CommonModule,
         FormsModule,
-        TuiIcon,
-        TuiRepeatTimes,
         PolymorpheusOutlet,
         PolymorpheusTemplate,
+        TuiIcon,
+        TuiRepeatTimes,
     ],
     templateUrl: './rating.template.html',
     styleUrls: ['./rating.style.less'],

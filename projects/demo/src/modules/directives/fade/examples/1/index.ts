@@ -6,7 +6,7 @@ import {TuiFade} from '@taiga-ui/kit';
 
 @Component({
     standalone: true,
-    imports: [TuiScrollbar, TuiFade],
+    imports: [TuiFade, TuiScrollbar],
     templateUrl: './index.html',
     styleUrls: ['./index.less'],
     encapsulation,

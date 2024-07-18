@@ -12,7 +12,7 @@ const COPIED_TIMEOUT = 1500;
 @Component({
     standalone: true,
     selector: 'tui-doc-copy',
-    imports: [NgIf, AsyncPipe, TuiButton],
+    imports: [AsyncPipe, NgIf, TuiButton],
     templateUrl: './index.html',
     styleUrls: ['./index.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,

@@ -7,7 +7,7 @@ import {TUI_TEXTFIELD_APPEARANCE_DIRECTIVE, TuiInputModule} from '@taiga-ui/lega
 @Component({
     standalone: true,
     selector: 'tui-wrapper-example-1',
-    imports: [TuiInputModule, FormsModule, TuiLabel, TuiCheckbox, TuiButton],
+    imports: [FormsModule, TuiButton, TuiCheckbox, TuiInputModule, TuiLabel],
     templateUrl: './index.html',
     styleUrls: ['./index.less'],
     encapsulation: ViewEncapsulation.None,

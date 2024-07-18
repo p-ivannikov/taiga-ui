@@ -13,6 +13,7 @@ import {
     setActiveProject,
 } from 'ng-morph';
 
+import cdkPackage from '../../../../package.json';
 import {makeAngularJsonWithAssets} from '../../../utils/make-angular-json-with-assets';
 
 const collectionPath = join(__dirname, '../../../migration.json');
@@ -103,7 +104,7 @@ const PACKAGE_JSON_AFTER = `
 {
     "dependencies": {
         "@angular/core": "~13.0.0",
-        "@taiga-ui/event-plugins": "^4.0.1",
+        "@taiga-ui/event-plugins": "${cdkPackage.peerDependencies['@taiga-ui/event-plugins']}",
         "@taiga-ui/legacy": "${TUI_VERSION}",
         "@taiga-ui/proprietary": "${TUI_VERSION}"
     }

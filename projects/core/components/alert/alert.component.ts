@@ -21,7 +21,7 @@ import {TUI_ALERT_POSITION} from './alert.tokens';
 @Component({
     standalone: true,
     selector: 'tui-alert',
-    imports: [TuiNotification, NgIf, PolymorpheusOutlet, PolymorpheusTemplate],
+    imports: [NgIf, PolymorpheusOutlet, PolymorpheusTemplate, TuiNotification],
     templateUrl: './alert.template.html',
     styleUrls: ['./alert.style.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,

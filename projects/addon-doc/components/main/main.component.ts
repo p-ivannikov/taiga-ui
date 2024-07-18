@@ -19,12 +19,12 @@ import {TuiDocNavigation} from '../navigation/navigation.component';
     standalone: true,
     selector: 'tui-doc-main',
     imports: [
-        TuiRoot,
         AsyncPipe,
         RouterOutlet,
         TuiButton,
         TuiDocHeader,
         TuiDocNavigation,
+        TuiRoot,
     ],
     templateUrl: './main.template.html',
     styleUrls: ['./main.style.less'],

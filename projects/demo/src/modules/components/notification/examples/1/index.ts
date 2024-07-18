@@ -6,7 +6,7 @@ import {TuiHint, TuiIcon, TuiNotification} from '@taiga-ui/core';
 
 @Component({
     standalone: true,
-    imports: [CommonModule, TuiNotification, TuiIcon, TuiHint],
+    imports: [CommonModule, TuiHint, TuiIcon, TuiNotification],
     templateUrl: './index.html',
     styleUrls: ['./index.less'],
     encapsulation,

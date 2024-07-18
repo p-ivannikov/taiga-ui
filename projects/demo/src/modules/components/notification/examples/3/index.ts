@@ -5,7 +5,7 @@ import {TuiButton, TuiLink, TuiNotification} from '@taiga-ui/core';
 
 @Component({
     standalone: true,
-    imports: [TuiNotification, TuiButton, TuiLink],
+    imports: [TuiButton, TuiLink, TuiNotification],
     templateUrl: './index.html',
     styleUrls: ['./index.less'],
     encapsulation,

@@ -21,12 +21,12 @@ const databaseMockData: readonly string[] = [
 @Component({
     standalone: true,
     imports: [
+        AsyncPipe,
+        FormsModule,
+        TuiDataList,
+        TuiDataListWrapper,
         TuiInputTagModule,
         TuiTextfieldControllerModule,
-        FormsModule,
-        TuiDataListWrapper,
-        TuiDataList,
-        AsyncPipe,
     ],
     templateUrl: './index.html',
     encapsulation,

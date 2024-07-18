@@ -9,7 +9,7 @@ import {IconsGroupTemplate} from './icons-group/icons-group.directive';
 
 @Component({
     standalone: true,
-    imports: [TuiDemo, TuiIcon, TuiIconPipe, IconsGroup, IconsGroupTemplate],
+    imports: [IconsGroup, IconsGroupTemplate, TuiDemo, TuiIcon, TuiIconPipe],
     templateUrl: './index.html',
     styleUrls: ['./index.less'],
     changeDetection,

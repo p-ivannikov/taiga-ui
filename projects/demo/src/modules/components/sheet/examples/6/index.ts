@@ -9,7 +9,7 @@ import {TuiSheetModule} from '@taiga-ui/legacy';
 
 @Component({
     standalone: true,
-    imports: [TuiButton, TuiSheetModule, NgForOf, IntersectionObserverModule, TuiLabel],
+    imports: [IntersectionObserverModule, NgForOf, TuiButton, TuiLabel, TuiSheetModule],
     templateUrl: './index.html',
     styleUrls: ['./index.less'],
     encapsulation,

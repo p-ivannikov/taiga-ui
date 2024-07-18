@@ -6,7 +6,7 @@ import {TuiAvatar, TuiChip} from '@taiga-ui/kit';
 
 @Component({
     standalone: true,
-    imports: [TuiChip, NgForOf, NgIf, TuiAvatar, SlicePipe],
+    imports: [NgForOf, NgIf, SlicePipe, TuiAvatar, TuiChip],
     templateUrl: './index.html',
     styleUrls: ['./index.less'],
     encapsulation,

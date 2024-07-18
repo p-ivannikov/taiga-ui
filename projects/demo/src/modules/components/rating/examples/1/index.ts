@@ -6,7 +6,7 @@ import {TuiRatingComponent} from '@taiga-ui/kit';
 
 @Component({
     standalone: true,
-    imports: [TuiRatingComponent, FormsModule],
+    imports: [FormsModule, TuiRatingComponent],
     templateUrl: './index.html',
     styleUrls: ['./index.less'],
     encapsulation,

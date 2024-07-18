@@ -1,4 +1,5 @@
 /// <reference lib="es2021" />
+import {peerDependencies} from '@taiga-ui/cdk/package.json';
 import type {DevkitFileSystem} from 'ng-morph';
 import {
     addPackageJsonDependency,
@@ -26,7 +27,7 @@ export function updatePackages({tree}: DevkitFileSystem, _: TuiSchema): void {
         '@tinkoff/ng-polymorpheus',
         {
             name: '@taiga-ui/polymorpheus',
-            version: '^4.6.4',
+            version: peerDependencies['@taiga-ui/polymorpheus'],
         },
         tree,
     );
@@ -34,7 +35,7 @@ export function updatePackages({tree}: DevkitFileSystem, _: TuiSchema): void {
         '@tinkoff/ng-event-plugins',
         {
             name: '@taiga-ui/event-plugins',
-            version: '^4.0.1',
+            version: peerDependencies['@taiga-ui/event-plugins'],
         },
         tree,
     );
@@ -50,7 +51,7 @@ export function updatePackages({tree}: DevkitFileSystem, _: TuiSchema): void {
     if (!getPackageJsonDependency(tree, '@taiga-ui/event-plugins')) {
         addPackageJsonDependency(tree, {
             name: '@taiga-ui/event-plugins',
-            version: '^4.0.1',
+            version: peerDependencies['@taiga-ui/event-plugins'],
         });
     }
 }

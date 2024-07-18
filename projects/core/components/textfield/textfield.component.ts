@@ -37,7 +37,7 @@ import {TuiWithTextfieldDropdown} from './textfield-dropdown.directive';
 @Component({
     standalone: true,
     selector: 'tui-textfield',
-    imports: [NgIf, AsyncPipe, ResizeObserverDirective, TuiButton, PolymorpheusOutlet],
+    imports: [AsyncPipe, NgIf, PolymorpheusOutlet, ResizeObserverDirective, TuiButton],
     templateUrl: './textfield.template.html',
     styleUrls: ['./textfield.style.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,

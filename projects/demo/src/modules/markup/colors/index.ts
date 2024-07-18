@@ -11,7 +11,7 @@ import {TableColors} from './examples/table/table.component';
 
 @Component({
     standalone: true,
-    imports: [TuiDemo, TableColors, TuiBlock, FormsModule, TuiGroup, TuiPlatform],
+    imports: [FormsModule, TableColors, TuiBlock, TuiDemo, TuiGroup, TuiPlatform],
     templateUrl: './index.html',
     changeDetection,
 })

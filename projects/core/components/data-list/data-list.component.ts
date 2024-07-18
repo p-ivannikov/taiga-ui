@@ -38,7 +38,7 @@ export function tuiInjectDataListSize(): TuiSizeL | TuiSizeS {
 @Component({
     standalone: true,
     selector: 'tui-data-list',
-    imports: [NgIf, AsyncPipe, PolymorpheusOutlet],
+    imports: [AsyncPipe, NgIf, PolymorpheusOutlet],
     templateUrl: './data-list.template.html',
     styleUrls: ['./data-list.style.less'],
     encapsulation: ViewEncapsulation.None,

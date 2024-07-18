@@ -9,7 +9,7 @@ import {of} from 'rxjs';
 
 @Component({
     standalone: true,
-    imports: [ReactiveFormsModule, TuiInputPasswordModule, TuiHint],
+    imports: [ReactiveFormsModule, TuiHint, TuiInputPasswordModule],
     templateUrl: './index.html',
     encapsulation,
     changeDetection,

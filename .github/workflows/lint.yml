@@ -17,11 +17,11 @@ jobs:
       - run: npm run cspell -- --no-progress
       - run: |
           if [[ "${{ env.SUPPORT_AUTO_PUSH }}" == "true" ]]; then
-              npm run prettier -- --write
+              npm run prettier -- --write --log-level warn
               npm run stylelint -- --fix
               npm run lint -- --fix
           else
-              npm run prettier -- --check
+              npm run prettier -- --check --log-level warn
               npm run stylelint
               npm run lint
           fi

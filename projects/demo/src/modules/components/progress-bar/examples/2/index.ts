@@ -9,7 +9,7 @@ import {of, timer} from 'rxjs';
 
 @Component({
     standalone: true,
-    imports: [TuiDocText, TuiProgress, AsyncPipe],
+    imports: [AsyncPipe, TuiDocText, TuiProgress],
     templateUrl: './index.html',
     styleUrls: ['./index.less'],
     encapsulation,

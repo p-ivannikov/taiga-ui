@@ -29,10 +29,10 @@ describe('InputTime', () => {
     @Component({
         standalone: true,
         imports: [
-            TuiRoot,
-            TuiInputTimeModule,
             ReactiveFormsModule,
             TuiHint,
+            TuiInputTimeModule,
+            TuiRoot,
             TuiTextfieldControllerModule,
         ],
         template: `

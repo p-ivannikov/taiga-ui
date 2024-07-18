@@ -29,7 +29,7 @@ const COMPLETED = {
 
 @Component({
     standalone: true,
-    imports: [ReactiveFormsModule, TuiFilterComponent, JsonPipe],
+    imports: [JsonPipe, ReactiveFormsModule, TuiFilterComponent],
     templateUrl: './index.html',
     styleUrls: ['./index.less'],
     encapsulation,

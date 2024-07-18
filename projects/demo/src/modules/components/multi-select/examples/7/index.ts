@@ -13,13 +13,13 @@ import {TuiMultiSelectModule} from '@taiga-ui/legacy';
 @Component({
     standalone: true,
     imports: [
-        TuiMultiSelectModule,
-        FormsModule,
-        CdkVirtualScrollViewport,
-        TuiScrollbar,
         CdkFixedSizeVirtualScroll,
-        TuiDataList,
         CdkVirtualForOf,
+        CdkVirtualScrollViewport,
+        FormsModule,
+        TuiDataList,
+        TuiMultiSelectModule,
+        TuiScrollbar,
     ],
     templateUrl: './index.html',
     styleUrls: ['./index.less'],

@@ -21,12 +21,12 @@ import {TuiButton, tuiFadeIn} from '@taiga-ui/core';
 @Component({
     standalone: true,
     imports: [
+        IntersectionObserverModule,
         NgIf,
         RouterLink,
-        TuiButton,
         TuiAutoFocus,
+        TuiButton,
         TuiRepeatTimes,
-        IntersectionObserverModule,
     ],
     templateUrl: './index.html',
     styleUrls: ['./index.less'],

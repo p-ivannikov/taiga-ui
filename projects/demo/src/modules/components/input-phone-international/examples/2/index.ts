@@ -11,9 +11,9 @@ import {getCountries} from 'libphonenumber-js';
     standalone: true,
     imports: [
         AsyncPipe,
+        FormsModule,
         TuiInputPhoneInternationalComponent,
         TuiSortCountriesPipe,
-        FormsModule,
     ],
     templateUrl: './index.html',
     encapsulation,

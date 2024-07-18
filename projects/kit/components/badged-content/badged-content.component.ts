@@ -6,7 +6,7 @@ import {TuiBadgedContentDirective} from './badged-content.directive';
 @Component({
     standalone: true,
     selector: 'tui-badged-content',
-    imports: [TuiBadgedContentDirective, ResizeObserverDirective],
+    imports: [ResizeObserverDirective, TuiBadgedContentDirective],
     templateUrl: './badged-content.template.html',
     styleUrls: ['./badged-content.style.less'],
     changeDetection: ChangeDetectionStrategy.OnPush,
